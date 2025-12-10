@@ -20,7 +20,7 @@ A curated list of awesome papers and resources on **Humanoid Robot Manipulation*
 
 ## Overview
 
-<p align="center"> <img src="images/overview.png" width="800" align="center"> </p>
+<p align="center"> <img src="images/banner.jpg" width="800" align="center"> </p>
 
 > **TLDR:** A comprehensive collection of papers covering humanoid robot manipulation
 
@@ -40,10 +40,10 @@ We use the following tags to categorize each paper:
 ## Contents
 
 - [Awesome Humanoid Manipulation](#awesome-humanoid-manipulation)
-  - [Loco-Manipulation](#loco-manipulation)
-  - [Non-Loco-Manipulation](#non-loco-manipulation)
-  - [Dexterous Hand](#dexterous-hand)
-  - [Datasets & Benchmarks](#datasets--benchmarks)
+  - [Loco-Manipulation](#dexterous-manipulation)
+  - [Non-Loco-Manipulation](#loco-manipulation)
+  - [Dexterous hand](#vision-language-action-vla)
+  - [Datasets & Benchmark](#datasets--benchmarks)
 
 ---
 
