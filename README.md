@@ -5,7 +5,9 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ![papercount](https://img.shields.io/badge/paper_count-50+-pink)
 [![Maintenance](https://img.shields.io/badge/maintained%3F-yes-green.svg)](https://github.com/Naereen/StrapDown.js/graphs/commit-activity)
+
 <!-- [![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/Awesome-Humanoid-Manipulation.svg?style=flat&color=orange)](https://github.com/YOUR_USERNAME/Awesome-Humanoid-Manipulation) -->
+
 <!-- [![GitHub](https://img.shields.io/github/stars/YOUR_USERNAME/Awesome-Humanoid-Manipulation.svg?style=social)](https://github.com/YOUR_USERNAME/Awesome-Humanoid-Manipulation)   -->
 
 </div>
@@ -20,29 +22,27 @@ A curated list of awesome papers and resources on **Humanoid Robot Manipulation*
 
 <p align="center"> <img src="images/overview.png" width="800" align="center"> </p>
 
-> **TLDR:** A comprehensive collection of papers on humanoid robot manipulation, covering dexterous hands, whole-body control, learning-based methods, and real-world deployment.
+> **TLDR:** A comprehensive collection of papers covering humanoid robot manipulation
 
 ## Tags Explanation
 
 We use the following tags to categorize each paper:
 
-| Tag Type | Examples |
-|----------|----------|
-| **Method** | ![](https://img.shields.io/badge/VLA-blue) ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Diffusion-blue) |
-| **Input** | ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Tactile-green) ![](https://img.shields.io/badge/Force--Feedback-green) |
-| **Task** | ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Loco--Manipulation-purple) |
-| **Feature** | ![](https://img.shields.io/badge/Force--Adaptive-orange) ![](https://img.shields.io/badge/Sim--to--Real-orange) ![](https://img.shields.io/badge/Real--World-orange) |
-| **Resource** | ![](https://img.shields.io/badge/Open--Sourced-red) ![](https://img.shields.io/badge/Dataset-red) |
+
+| Tag Type     | Examples                                                                                                                                                                        |
+| ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Method**   | ![](https://img.shields.io/badge/VLA-blue) ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Diffusion-blue) |
+| **Input**    | ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Tactile-green) ![](https://img.shields.io/badge/Force--Feedback-green)                   |
+| **Task**     | ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Loco--Manipulation-purple)  |
+| **Feature**  | ![](https://img.shields.io/badge/Force--Adaptive-orange) ![](https://img.shields.io/badge/Sim--to--Real-orange) ![](https://img.shields.io/badge/Real--World-orange)            |
+| **Resource** | ![](https://img.shields.io/badge/Open--Sourced-red) ![](https://img.shields.io/badge/Dataset-red)                                                                               |
 
 ## Contents
 
 - [Awesome Humanoid Manipulation](#awesome-humanoid-manipulation)
-  - [Dexterous Manipulation](#dexterous-manipulation)
-  - [Bimanual Manipulation](#bimanual-manipulation)
   - [Loco-Manipulation](#loco-manipulation)
-  - [Vision-Language-Action (VLA)](#vision-language-action-vla)
-  - [Force-Adaptive Control](#force-adaptive-control)
-  - [Sim-to-Real Transfer](#sim-to-real-transfer)
+  - [Non-Loco-Manipulation](#non-loco-manipulation)
+  - [Dexterous Hand](#dexterous-hand)
   - [Datasets & Benchmarks](#datasets--benchmarks)
 
 ---
@@ -65,8 +65,8 @@ We use the following tags to categorize each paper:
     year={2022}
   }
   ```
-  </details>
 
+  </details>
 - **[2] DexPoint: Generalizable Point Cloud Reinforcement Learning for Sim-to-Real Dexterous Manipulation**, CoRL 2022.
 
   *Qin, Yuzhe and Huang, Binghao and Yin, Zhao-Heng and Su, Hao and Wang, Xiaolong.*
@@ -83,6 +83,7 @@ We use the following tags to categorize each paper:
     year={2022}
   }
   ```
+
   </details>
 
 ---
@@ -105,6 +106,7 @@ We use the following tags to categorize each paper:
     year={2024}
   }
   ```
+
   </details>
 
 ---
@@ -127,6 +129,7 @@ We use the following tags to categorize each paper:
     year={2024}
   }
   ```
+
   </details>
 
 ---
@@ -149,6 +152,7 @@ We use the following tags to categorize each paper:
     year={2024}
   }
   ```
+
   </details>
 
 ---
@@ -171,6 +175,7 @@ We use the following tags to categorize each paper:
     year={2023}
   }
   ```
+
   </details>
 
 ---
@@ -193,6 +198,7 @@ We use the following tags to categorize each paper:
     year={2023}
   }
   ```
+
   </details>
 
 ---
@@ -215,6 +221,7 @@ We use the following tags to categorize each paper:
     year={2024}
   }
   ```
+
   </details>
 
 ---
@@ -240,4 +247,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## Star History
 
 <!-- [![Star History Chart](https://api.star-history.com/svg?repos=YOUR_USERNAME/Awesome-Humanoid-Manipulation&type=Timeline)](https://www.star-history.com/#YOUR_USERNAME/Awesome-Humanoid-Manipulation&Timeline) -->
-
