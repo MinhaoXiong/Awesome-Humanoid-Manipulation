@@ -20,6 +20,7 @@ A curated list of awesome papers and resources on **Humanoid Robot Manipulation*
 
 We use the following tags to categorize each paper:
 
+
 | Tag Type     | Examples                                                                                                                                                                        |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Method**   | ![](https://img.shields.io/badge/VLA-blue) ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Diffusion-blue) |
@@ -58,7 +59,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[2] FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation**, arXiv 2025.
 
   *Authors.*
@@ -77,26 +77,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
-- **[3] HumanPlus: Humanoid Shadowing and Imitation from Humans**, arXiv 2024.
-
-  *Fu, Zipeng and Zhao, Qingqing and Wu, Qi and Wetzstein, Gordon and Finn, Chelsea.*
-
-  [[Paper](https://arxiv.org/abs/2406.10454)] [[Project](https://humanoid-ai.github.io/)] [[Code](https://github.com/MarkFzp/humanplus)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{fu2024humanplus,
-    title={HumanPlus: Humanoid Shadowing and Imitation from Humans},
-    author={Fu, Zipeng and Zhao, Qingqing and Wu, Qi and Wetzstein, Gordon and Finn, Chelsea},
-    journal={arXiv preprint arXiv:2406.10454},
-    year={2024}
-  }
-  ```
-
-  </details>
-
 - **[4] OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning**, arXiv 2024.
 
   *Authors.*
@@ -116,121 +96,24 @@ We use the following tags to categorize each paper:
 
   </details>
 
-- **[5] HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit**, arXiv 2025.
+  - **[5] HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit**, arXiv 2025.
 
-  *Authors.*
+    *Authors.*
 
-  [[Paper](https://arxiv.org/abs/2502.13013)] [[Project](https://homietele.github.io/)] [[Code](https://github.com/OpenRobotLab/OpenHomie)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
+    [[Paper](https://arxiv.org/abs/2502.13013)] [[Project](https://homietele.github.io/)] [[Code](https://github.com/OpenRobotLab/OpenHomie)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
 
-  <details> <summary>BibTex</summary>
+    <details> <summary>BibTex</summary>
 
-  ```bibtex
-  @article{homie2025,
-    title={HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit},
-    author={Authors},
-    journal={arXiv preprint arXiv:2502.13013},
-    year={2025}
-  }
-  ```
+    ```bibtex
+    @article{homie2025,
+      title={HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit},
+      author={Authors},
+      journal={arXiv preprint arXiv:2502.13013},
+      year={2025}
+    }
+    ```
 
-  </details>
-
-- **[6] HugWBC: A Unified and General Humanoid Whole-Body Controller for Fine-Grained Locomotion**, arXiv 2025.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2502.03206)] [[Project](https://hugwbc.github.io/)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{hugwbc2025,
-    title={HugWBC: A Unified and General Humanoid Whole-Body Controller for Fine-Grained Locomotion},
-    author={Authors},
-    journal={arXiv preprint arXiv:2502.03206},
-    year={2025}
-  }
-  ```
-
-  </details>
-
-- **[7] HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2410.21229)] [[Project](https://hover-versatile-humanoid.github.io/)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{hover2024,
-    title={HOVER: Versatile Neural Whole-Body Controller for Humanoid Robots},
-    author={Authors},
-    journal={arXiv preprint arXiv:2410.21229},
-    year={2024}
-  }
-  ```
-
-  </details>
-
-- **[8] ExBody2: Advanced Expressive Humanoid Whole-Body Control**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2412.13196)] [[Project](https://exbody2.github.io/)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{exbody2_2024,
-    title={ExBody2: Advanced Expressive Humanoid Whole-Body Control},
-    author={Authors},
-    journal={arXiv preprint arXiv:2412.13196},
-    year={2024}
-  }
-  ```
-
-  </details>
-
-- **[9] WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2406.06005)] [[Project](https://lecar-lab.github.io/wococo/)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Sim--to--Real-orange)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{wococo2024,
-    title={WoCoCo: Learning Whole-Body Humanoid Control with Sequential Contacts},
-    author={Authors},
-    journal={arXiv preprint arXiv:2406.06005},
-    year={2024}
-  }
-  ```
-
-  </details>
-
-- **[10] Expressive Whole-Body Control for Humanoid Robots**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2402.16796)] [[Project](https://expressive-humanoid.github.io/)] [[Code](https://github.com/chengxuxin/expressive-humanoid)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{expressive2024,
-    title={Expressive Whole-Body Control for Humanoid Robots},
-    author={Authors},
-    journal={arXiv preprint arXiv:2402.16796},
-    year={2024}
-  }
-  ```
-
-  </details>
-
----
+    </details>
 
 ## Non-Loco-Manipulation
 
@@ -252,7 +135,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[2] EgoMimic: Scaling Imitation Learning via Egocentric Video**, arXiv 2024.
 
   *Authors.*
@@ -271,7 +153,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[3] GR00T N1: An Open Foundation Model for Generalist Humanoid Robots**, arXiv 2025.
 
   *Authors.*
@@ -290,45 +171,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
-- **[4] OpenVLA: An Open-Source Vision-Language-Action Model**, arXiv 2024.
-
-  *Kim, Moo Jin and Pertsch, Karl and Karamcheti, Siddharth and others.*
-
-  [[Paper](https://arxiv.org/abs/2406.09246)] [[Code](https://github.com/openvla/openvla)] ![](https://img.shields.io/badge/VLA-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{kim2024openvla,
-    title={OpenVLA: An Open-Source Vision-Language-Action Model},
-    author={Kim, Moo Jin and Pertsch, Karl and Karamcheti, Siddharth and others},
-    journal={arXiv preprint arXiv:2406.09246},
-    year={2024}
-  }
-  ```
-
-  </details>
-
-- **[5] ACE: A Cross-Platform Visual-Exoskeletons System for Low-Cost Dexterous Teleoperation**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2408.11805)] [[Project](https://ace-teleop.github.io/)] [[Code](https://github.com/ACETeleop/ACETeleop)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{ace2024,
-    title={ACE: A Cross-Platform Visual-Exoskeletons System for Low-Cost Dexterous Teleoperation},
-    author={Authors},
-    journal={arXiv preprint arXiv:2408.11805},
-    year={2024}
-  }
-  ```
-
-  </details>
-
 - **[6] Open-TeleVision: Teleoperation with Immersive Active Visual Feedback**, arXiv 2024.
 
   *Authors.*
@@ -347,42 +189,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
-- **[7] Bunny-VisionPro: Real-Time Bimanual Dexterous Teleoperation for Imitation Learning**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2407.03162)] [[Project](https://dingry.github.io/projects/bunny_visionpro.html)] [[Code](https://github.com/Dingry/BunnyVisionPro)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{bunny2024,
-    title={Bunny-VisionPro: Real-Time Bimanual Dexterous Teleoperation for Imitation Learning},
-    author={Authors},
-    journal={arXiv preprint arXiv:2407.03162},
-    year={2024}
-  }
-  ```
-
-  </details>
-
-- **[8] Bi-DexHands: Towards Human-Level Bimanual Dexterous Manipulation**, TPAMI 2024.
-
-  *Chen, Yuanpei and Wang, Yaodong and others.*
-
-  [[Paper](https://arxiv.org/abs/2206.08686)] [[Code](https://github.com/PKU-MARL/DexterousHands)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{chen2022bi,
-    title={Bi-DexHands: Towards Human-Level Bimanual Dexterous Manipulation},
-    author={Chen, Yuanpei and Wang, Yaodong and others},
-    journal={TPAMI},
-    year={2024}
-  }
-  ```
 
   </details>
 
@@ -408,7 +214,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[2] DexPoint: Generalizable Point Cloud Reinforcement Learning for Sim-to-Real Dexterous Manipulation**, CoRL 2022.
 
   *Qin, Yuzhe and Huang, Binghao and Yin, Zhao-Heng and Su, Hao and Wang, Xiaolong.*
@@ -427,7 +232,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[3] DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation**, arXiv 2024.
 
   *Authors.*
@@ -446,7 +250,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[4] Learning Visuotactile Skills with Two Multifingered Hands**, arXiv 2024.
 
   *Authors.*
@@ -465,7 +268,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[5] Object-Centric Dexterous Manipulation from Human Motion Data**, arXiv 2024.
 
   *Authors.*
@@ -507,7 +309,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[2] HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation**, arXiv 2024.
 
   *Authors.*
@@ -526,26 +327,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
-- **[3] ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2410.00425)] [[Project](https://www.maniskill.ai/home)] [[Code](https://github.com/haosulab/ManiSkill)] ![](https://img.shields.io/badge/Dataset-red) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{maniskill3_2024,
-    title={ManiSkill3: GPU Parallelized Robotics Simulation and Rendering for Generalizable Embodied AI},
-    author={Authors},
-    journal={arXiv preprint arXiv:2410.00425},
-    year={2024}
-  }
-  ```
-
-  </details>
-
 - **[4] RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots**, arXiv 2024.
 
   *Authors.*
@@ -564,7 +345,6 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-
 - **[5] Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer**, arXiv 2024.
 
   *Authors.*
