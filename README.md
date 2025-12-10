@@ -20,7 +20,6 @@ A curated list of awesome papers and resources on **Humanoid Robot Manipulation*
 
 We use the following tags to categorize each paper:
 
-
 | Tag Type     | Examples                                                                                                                                                                        |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Method**   | ![](https://img.shields.io/badge/VLA-blue) ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Diffusion-blue) |
@@ -34,8 +33,8 @@ We use the following tags to categorize each paper:
 - [Awesome Humanoid Manipulation](#awesome-humanoid-manipulation)
   - [Loco-Manipulation](#loco-manipulation)
   - [Non-Loco-Manipulation](#non-loco-manipulation)
-  - [Dexterous Hand](#dexterous-hand)
-  - [Datasets & Benchmarks](#datasets--benchmarks)
+  - [Retargeting](#retargeting)
+  - [Human Motion Dataset](#human-motion-dataset)
 
 ---
 
@@ -59,6 +58,7 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
+
 - **[2] FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation**, arXiv 2025.
 
   *Authors.*
@@ -77,7 +77,8 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-- **[4] OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning**, arXiv 2024.
+
+- **[3] OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning**, arXiv 2024.
 
   *Authors.*
 
@@ -96,24 +97,26 @@ We use the following tags to categorize each paper:
 
   </details>
 
-  - **[5] HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit**, arXiv 2025.
+- **[4] HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit**, arXiv 2025.
 
-    *Authors.*
+  *Authors.*
 
-    [[Paper](https://arxiv.org/abs/2502.13013)] [[Project](https://homietele.github.io/)] [[Code](https://github.com/OpenRobotLab/OpenHomie)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
+  [[Paper](https://arxiv.org/abs/2502.13013)] [[Project](https://homietele.github.io/)] [[Code](https://github.com/OpenRobotLab/OpenHomie)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
 
-    <details> <summary>BibTex</summary>
+  <details> <summary>BibTex</summary>
 
-    ```bibtex
-    @article{homie2025,
-      title={HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit},
-      author={Authors},
-      journal={arXiv preprint arXiv:2502.13013},
-      year={2025}
-    }
-    ```
+  ```bibtex
+  @article{homie2025,
+    title={HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit},
+    author={Authors},
+    journal={arXiv preprint arXiv:2502.13013},
+    year={2025}
+  }
+  ```
 
-    </details>
+  </details>
+
+---
 
 ## Non-Loco-Manipulation
 
@@ -135,6 +138,7 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
+
 - **[2] EgoMimic: Scaling Imitation Learning via Egocentric Video**, arXiv 2024.
 
   *Authors.*
@@ -153,6 +157,7 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
+
 - **[3] GR00T N1: An Open Foundation Model for Generalist Humanoid Robots**, arXiv 2025.
 
   *Authors.*
@@ -171,7 +176,8 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-- **[6] Open-TeleVision: Teleoperation with Immersive Active Visual Feedback**, arXiv 2024.
+
+- **[4] Open-TeleVision: Teleoperation with Immersive Active Visual Feedback**, arXiv 2024.
 
   *Authors.*
 
@@ -190,106 +196,15 @@ We use the following tags to categorize each paper:
 
   </details>
 
-  </details>
+---
+
+## Retargeting
+
+*Coming soon...*
 
 ---
 
-## Dexterous Hand
-
-- **[1] DexMV: Imitation Learning for Dexterous Manipulation from Human Videos**, ECCV 2022.
-
-  *Qin, Yuzhe and Wu, Yueh-Hua and Liu, Shaowei and Jiang, Hanwen and Yang, Ruihan and Fu, Yang and Wang, Xiaolong.*
-
-  [[Paper](https://arxiv.org/abs/2108.05877)] [[Code](https://github.com/yzqin/dexmv-sim)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @inproceedings{qin2022dexmv,
-    title={DexMV: Imitation Learning for Dexterous Manipulation from Human Videos},
-    author={Qin, Yuzhe and Wu, Yueh-Hua and Liu, Shaowei and Jiang, Hanwen and Yang, Ruihan and Fu, Yang and Wang, Xiaolong},
-    booktitle={ECCV},
-    year={2022}
-  }
-  ```
-
-  </details>
-- **[2] DexPoint: Generalizable Point Cloud Reinforcement Learning for Sim-to-Real Dexterous Manipulation**, CoRL 2022.
-
-  *Qin, Yuzhe and Huang, Binghao and Yin, Zhao-Heng and Su, Hao and Wang, Xiaolong.*
-
-  [[Paper](https://arxiv.org/abs/2211.15036)] [[Code](https://github.com/yzqin/dexpoint-release)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Sim--to--Real-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @inproceedings{qin2022dexpoint,
-    title={DexPoint: Generalizable Point Cloud Reinforcement Learning for Sim-to-Real Dexterous Manipulation},
-    author={Qin, Yuzhe and Huang, Binghao and Yin, Zhao-Heng and Su, Hao and Wang, Xiaolong},
-    booktitle={CoRL},
-    year={2022}
-  }
-  ```
-
-  </details>
-- **[3] DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2403.07788)] [[Project](https://dex-cap.github.io/)] [[Code](https://github.com/j96w/DexCap)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{dexcap2024,
-    title={DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation},
-    author={Authors},
-    journal={arXiv preprint arXiv:2403.07788},
-    year={2024}
-  }
-  ```
-
-  </details>
-- **[4] Learning Visuotactile Skills with Two Multifingered Hands**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2404.16823)] [[Project](https://toruowo.github.io/hato/)] [[Code](https://github.com/toruowo/hato)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Tactile-green) ![](https://img.shields.io/badge/Dexterous--Manipulation-purple) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Open--Sourced-red)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{hato2024,
-    title={Learning Visuotactile Skills with Two Multifingered Hands},
-    author={Authors},
-    journal={arXiv preprint arXiv:2404.16823},
-    year={2024}
-  }
-  ```
-
-  </details>
-- **[5] Object-Centric Dexterous Manipulation from Human Motion Data**, arXiv 2024.
-
-  *Authors.*
-
-  [[Paper](https://arxiv.org/abs/2411.04005)] [[Project](https://cypypccpy.github.io/obj-dex.github.io/)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Dexterous--Manipulation-purple)
-
-  <details> <summary>BibTex</summary>
-
-  ```bibtex
-  @article{objdex2024,
-    title={Object-Centric Dexterous Manipulation from Human Motion Data},
-    author={Authors},
-    journal={arXiv preprint arXiv:2411.04005},
-    year={2024}
-  }
-  ```
-
-  </details>
-
----
-
-## Datasets & Benchmarks
+## Human Motion Dataset
 
 - **[1] DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset**, RSS 2024.
 
@@ -309,6 +224,7 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
+
 - **[2] HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation**, arXiv 2024.
 
   *Authors.*
@@ -327,7 +243,8 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-- **[4] RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots**, arXiv 2024.
+
+- **[3] RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots**, arXiv 2024.
 
   *Authors.*
 
@@ -345,7 +262,8 @@ We use the following tags to categorize each paper:
   ```
 
   </details>
-- **[5] Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer**, arXiv 2024.
+
+- **[4] Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer**, arXiv 2024.
 
   *Authors.*
 
