@@ -42,8 +42,6 @@ We use the following tags to categorize each paper:
 
 - **[1] VIRAL: Visual Sim-to-Real at Scale for Humanoid Loco-Manipulation**, arXiv 2025.
 
-  *Authors.*
-
   [[Paper](https://arxiv.org/abs/2511.15200)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Sim--to--Real-orange)
 
   <details> <summary>BibTex</summary>
@@ -60,8 +58,6 @@ We use the following tags to categorize each paper:
   </details>
 
 - **[2] FALCON: Learning Force-Adaptive Humanoid Loco-Manipulation**, arXiv 2025.
-
-  *Authors.*
 
   [[Paper](https://arxiv.org/abs/2505.06776)] [[Project](https://lecar-lab.github.io/falcon-humanoid/)] ![](https://img.shields.io/badge/RL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Force--Adaptive-orange) ![](https://img.shields.io/badge/Real--World-orange)
 
@@ -80,8 +76,6 @@ We use the following tags to categorize each paper:
 
 - **[3] OmniH2O: Universal and Dexterous Human-to-Humanoid Whole-Body Teleoperation and Learning**, arXiv 2024.
 
-  *Authors.*
-
   [[Paper](https://arxiv.org/abs/2406.08858)] [[Project](https://omni.human2humanoid.com/)] [[Code](https://github.com/LeCAR-Lab/human2humanoid)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
 
   <details> <summary>BibTex</summary>
@@ -98,8 +92,6 @@ We use the following tags to categorize each paper:
   </details>
 
 - **[4] HOMIE: Humanoid Loco-Manipulation with Isomorphic Exoskeleton Cockpit**, arXiv 2025.
-
-  *Authors.*
 
   [[Paper](https://arxiv.org/abs/2502.13013)] [[Project](https://homietele.github.io/)] [[Code](https://github.com/OpenRobotLab/OpenHomie)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Loco--Manipulation-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
 
@@ -122,8 +114,6 @@ We use the following tags to categorize each paper:
 
 - **[1] Generalizable Humanoid Manipulation with Improved 3D Diffusion Policies**, arXiv 2024.
 
-  *Authors.*
-
   [[Paper](https://arxiv.org/abs/2410.10803)] [[Project](https://humanoid-manipulation.github.io/)] [[Code](https://github.com/YanjieZe/Improved-3D-Diffusion-Policy)] ![](https://img.shields.io/badge/Diffusion-blue) ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
 
   <details> <summary>BibTex</summary>
@@ -140,8 +130,6 @@ We use the following tags to categorize each paper:
   </details>
 
 - **[2] EgoMimic: Scaling Imitation Learning via Egocentric Video**, arXiv 2024.
-
-  *Authors.*
 
   [[Paper](https://arxiv.org/abs/2410.24221)] [[Project](https://egomimic.github.io/)] [[Code](https://github.com/SimarKareer/EgoMimic)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
 
@@ -160,8 +148,6 @@ We use the following tags to categorize each paper:
 
 - **[3] GR00T N1: An Open Foundation Model for Generalist Humanoid Robots**, arXiv 2025.
 
-  *Authors.*
-
   [[Paper](https://arxiv.org/abs/2503.14734)] ![](https://img.shields.io/badge/VLA-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Real--World-orange)
 
   <details> <summary>BibTex</summary>
@@ -178,8 +164,6 @@ We use the following tags to categorize each paper:
   </details>
 
 - **[4] Open-TeleVision: Teleoperation with Immersive Active Visual Feedback**, arXiv 2024.
-
-  *Authors.*
 
   [[Paper](https://arxiv.org/abs/2407.01512)] [[Project](https://robot-tv.github.io/)] [[Code](https://github.com/OpenTeleVision/TeleVision)] ![](https://img.shields.io/badge/IL-blue) ![](https://img.shields.io/badge/Visual--Input-green) ![](https://img.shields.io/badge/Bimanual-purple) ![](https://img.shields.io/badge/Real--World-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
 
@@ -259,7 +243,7 @@ We use the following tags to categorize each paper:
 
 ---
 
-## Human Motion Dataset
+## Human Motion Generation&Dataset
 
 - **[1] Object Motion Guided Human Motion Synthesis**, arXiv 2023.
 
@@ -318,7 +302,71 @@ We use the following tags to categorize each paper:
 
   </details>
 
-- **[4] DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset**, RSS 2024.
+- **[4] PICO: Reconstructing 3D People In Contact with Objects**, arXiv 2025.
+
+  [[Paper](https://arxiv.org/abs/2504.17695)] [[Project](https://pico.is.tue.mpg.de/)] ![](https://img.shields.io/badge/Dataset-red)
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{pico2025,
+    title={PICO: Reconstructing 3D People In Contact with Objects},
+    journal={arXiv preprint arXiv:2504.17695},
+    year={2025}
+  }
+  ```
+
+  </details>
+
+- **[5] Efficient and Scalable Monocular Human-Object Interaction Motion Reconstruction**, arXiv 2025.
+
+  [[Paper](https://arxiv.org/pdf/2512.00960)] [[Project](https://wenboran2002.github.io/open4dhoi/)] ![](https://img.shields.io/badge/Dataset-red)
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{open4dhoi2025,
+    title={Efficient and Scalable Monocular Human-Object Interaction Motion Reconstruction},
+    journal={arXiv preprint arXiv:2512.00960},
+    year={2025}
+  }
+  ```
+
+  </details>
+
+- **[6] OmniControl: Control Any Joint at Any Time for Human Motion Generation**, arXiv 2023.
+
+  [[Paper](https://arxiv.org/abs/2310.08580)] [[Project](https://neu-vi.github.io/omnicontrol/)]
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{omnicontrol2023,
+    title={OmniControl: Control Any Joint at Any Time for Human Motion Generation},
+    journal={arXiv preprint arXiv:2310.08580},
+    year={2023}
+  }
+  ```
+
+  </details>
+
+- **[7] Learning to Control Physically-simulated 3D Characters via Generating and Mimicking 2D Motions**, arXiv 2025.
+
+  [[Paper](https://arxiv.org/pdf/2512.08500)] [[Project](https://jiann-li.github.io/mimic2dm/)]
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{mimic2dm2025,
+    title={Learning to Control Physically-simulated 3D Characters via Generating and Mimicking 2D Motions},
+    journal={arXiv preprint arXiv:2512.08500},
+    year={2025}
+  }
+  ```
+
+  </details>
+
+- **[8] DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset**, RSS 2024.
 
   *Khazatsky, Alexander and others.*
 
@@ -337,9 +385,7 @@ We use the following tags to categorize each paper:
 
   </details>
 
-- **[5] HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation**, arXiv 2024.
-
-  *Authors.*
+- **[9] HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation**, arXiv 2024.
 
   [[Paper](https://arxiv.org/abs/2403.10506)] [[Project](https://humanoid-bench.github.io/)] [[Code](https://github.com/carlosferrazza/humanoid-bench)] ![](https://img.shields.io/badge/Dataset-red) ![](https://img.shields.io/badge/Open--Sourced-red)
 
@@ -356,9 +402,7 @@ We use the following tags to categorize each paper:
 
   </details>
 
-- **[6] RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots**, arXiv 2024.
-
-  *Authors.*
+- **[10] RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots**, arXiv 2024.
 
   [[Paper](https://arxiv.org/abs/2406.02523)] [[Project](https://robocasa.ai/)] [[Code](https://github.com/robocasa/robocasa)] ![](https://img.shields.io/badge/Dataset-red) ![](https://img.shields.io/badge/Open--Sourced-red)
 
@@ -375,9 +419,7 @@ We use the following tags to categorize each paper:
 
   </details>
 
-- **[7] Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer**, arXiv 2024.
-
-  *Authors.*
+- **[11] Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer**, arXiv 2024.
 
   [[Paper](https://arxiv.org/abs/2404.05695)] [[Project](https://sites.google.com/view/humanoid-gym/)] [[Code](https://github.com/roboterax/humanoid-gym)] ![](https://img.shields.io/badge/Dataset-red) ![](https://img.shields.io/badge/Sim--to--Real-orange) ![](https://img.shields.io/badge/Open--Sourced-red)
 
