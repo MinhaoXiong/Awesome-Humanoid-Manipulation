@@ -200,13 +200,125 @@ We use the following tags to categorize each paper:
 
 ## Retargeting
 
-*Coming soon...*
+- **[1] Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking**, arXiv 2025.
+
+  *Joao Pedro Araujo, Yanjie Ze, Pei Xu, Jiajun Wu, C. Karen Liu.*
+
+  [[Paper](https://arxiv.org/abs/2510.02252)] [[Code](https://github.com/YanjieZe/GMR)] ![](https://img.shields.io/badge/Open--Sourced-red)
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{araujo2025retargeting,
+    title={Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking},
+    author={Araujo, Joao Pedro and Ze, Yanjie and Xu, Pei and Wu, Jiajun and Liu, C. Karen},
+    journal={arXiv preprint arXiv:2510.02252},
+    year={2025}
+  }
+  ```
+
+  </details>
+
+- **[2] SPIDER: Scalable Physics-Informed Dexterous Retargeting**, arXiv 2025.
+
+  *Chaoyi Pan, Changhao Wang, Haozhi Qi, Zixi Liu, Homanga Bharadhwaj, Akash Sharma, Tingfan Wu, Guanya Shi, Jitendra Malik, Francois Hogan.*
+
+  [[Paper](https://arxiv.org/abs/2511.09484)] [[Project](https://jc-bao.github.io/spider-project/)]
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{pan2025spider,
+    title={SPIDER: Scalable Physics-Informed Dexterous Retargeting},
+    author={Pan, Chaoyi and Wang, Changhao and Qi, Haozhi and Liu, Zixi and Bharadhwaj, Homanga and Sharma, Akash and Wu, Tingfan and Shi, Guanya and Malik, Jitendra and Hogan, Francois},
+    journal={arXiv preprint arXiv:2511.09484},
+    year={2025}
+  }
+  ```
+
+  </details>
+
+- **[3] OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction**, arXiv 2025.
+
+  *Lujie Yang, Xiaoyu Huang, Zhen Wu, Angjoo Kanazawa, Pieter Abbeel, Carmelo Sferrazza, C. Karen Liu, Rocky Duan, Guanya Shi.*
+
+  [[Paper](https://arxiv.org/abs/2509.26633)]
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{yang2025omniretarget,
+    title={OmniRetarget: Interaction-Preserving Data Generation for Humanoid Whole-Body Loco-Manipulation and Scene Interaction},
+    author={Yang, Lujie and Huang, Xiaoyu and Wu, Zhen and Kanazawa, Angjoo and Abbeel, Pieter and Sferrazza, Carmelo and Liu, C. Karen and Duan, Rocky and Shi, Guanya},
+    journal={arXiv preprint arXiv:2509.26633},
+    year={2025}
+  }
+  ```
+
+  </details>
 
 ---
 
 ## Human Motion Dataset
 
-- **[1] DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset**, RSS 2024.
+- **[1] Object Motion Guided Human Motion Synthesis**, arXiv 2023.
+
+  *Jiaman Li, Jiajun Wu, C. Karen Liu.*
+
+  [[Paper](https://arxiv.org/abs/2309.16237)] ![](https://img.shields.io/badge/Dataset-red)
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{li2023object,
+    title={Object Motion Guided Human Motion Synthesis},
+    author={Li, Jiaman and Wu, Jiajun and Liu, C. Karen},
+    journal={arXiv preprint arXiv:2309.16237},
+    year={2023}
+  }
+  ```
+
+  </details>
+
+- **[2] GRAB: A Dataset of Whole-Body Human Grasping of Objects**, ECCV 2020.
+
+  *Omid Taheri, Nima Ghorbani, Michael J. Black, Dimitrios Tzionas.*
+
+  [[Paper](https://arxiv.org/abs/2008.11200)] [[Project](https://grab.is.tue.mpg.de/)] ![](https://img.shields.io/badge/Dataset-red) ![](https://img.shields.io/badge/Open--Sourced-red)
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{taheri2020grab,
+    title={GRAB: A Dataset of Whole-Body Human Grasping of Objects},
+    author={Taheri, Omid and Ghorbani, Nima and Black, Michael J. and Tzionas, Dimitrios},
+    journal={arXiv preprint arXiv:2008.11200},
+    year={2020}
+  }
+  ```
+
+  </details>
+
+- **[3] HUMOTO: A 4D Dataset of Mocap Human Object Interactions**, arXiv 2025.
+
+  *Jiaxin Lu, Chun-Hao Paul Huang, Uttaran Bhattacharya, Qixing Huang, Yi Zhou.*
+
+  [[Paper](https://arxiv.org/abs/2504.10414)] [[Project](https://jiaxin-lu.github.io/humoto/)] ![](https://img.shields.io/badge/Dataset-red)
+
+  <details> <summary>BibTex</summary>
+
+  ```bibtex
+  @article{lu2025humoto,
+    title={HUMOTO: A 4D Dataset of Mocap Human Object Interactions},
+    author={Lu, Jiaxin and Huang, Chun-Hao Paul and Bhattacharya, Uttaran and Huang, Qixing and Zhou, Yi},
+    journal={arXiv preprint arXiv:2504.10414},
+    year={2025}
+  }
+  ```
+
+  </details>
+
+- **[4] DROID: A Large-Scale In-The-Wild Robot Manipulation Dataset**, RSS 2024.
 
   *Khazatsky, Alexander and others.*
 
@@ -225,7 +337,7 @@ We use the following tags to categorize each paper:
 
   </details>
 
-- **[2] HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation**, arXiv 2024.
+- **[5] HumanoidBench: Simulated Humanoid Benchmark for Whole-Body Locomotion and Manipulation**, arXiv 2024.
 
   *Authors.*
 
@@ -244,7 +356,7 @@ We use the following tags to categorize each paper:
 
   </details>
 
-- **[3] RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots**, arXiv 2024.
+- **[6] RoboCasa: Large-Scale Simulation of Everyday Tasks for Generalist Robots**, arXiv 2024.
 
   *Authors.*
 
@@ -263,7 +375,7 @@ We use the following tags to categorize each paper:
 
   </details>
 
-- **[4] Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer**, arXiv 2024.
+- **[7] Humanoid-Gym: Reinforcement Learning for Humanoid Robot with Zero-Shot Sim2Real Transfer**, arXiv 2024.
 
   *Authors.*
 
