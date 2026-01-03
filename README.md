@@ -8,7 +8,7 @@
 
 </div>
 
-A curated list of awesome papers and resources on **Humanoid Robot Manipulation**.
+A curated list of awesome papers and resources on **Humanoid Manipulation**.
 
 ## News
 
